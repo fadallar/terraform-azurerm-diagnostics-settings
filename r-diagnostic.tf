@@ -44,7 +44,7 @@ resource "azurerm_monitor_diagnostic_setting" "main" {
     }
   }
 
-  lifecycle {
-    ignore_changes = [log_analytics_destination_type]
-  }
+  #lifecycle {
+  #  ignore_changes = [log_analytics_destination_type]
+  #}
 }
